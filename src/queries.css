@@ -76,6 +76,8 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    /* Focus state stays on top of overlay rgba(255, 255, 255, 0.852)*/
+    z-index: 9999;
   }
 
   .main-nav {
@@ -165,10 +167,6 @@
 
   .meal-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
-  }
-
-  .meal-title {
-    font-size: 2rem;
   }
 
   .feature-title {
@@ -328,7 +326,7 @@
 
   .cta-img-box {
     /* 320px = 32 */
-    height: 32rem;
+    height: 42rem;
     grid-row: 1;
   }
 
